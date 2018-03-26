@@ -1,0 +1,109 @@
+
+/* Test css link */
+h1 {
+  color: blue;
+}
+/* Flexbox Row */
+
+.flex-container_row1 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container_row1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container_row2 {
+  display: inline-flex;
+  width: 600px;
+  flex-direction: row;
+  background-color: DodgerBlue;
+}
+
+.flex-container_row2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* Flexbox Column */
+.flex-container_column1 {
+  display: inline-flex;
+  width: 300px;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container_column1 > div {
+  background-color: #f1f1f1;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container_column2 {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container_column2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container_centered {
+  display:inline-flex;
+  height: 95px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: DodgerBlue;
+
+}
+
+.flex-container_centered > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.push {
+  margin-left: auto;
+
+}
+
+/* Flexbox Items */
+.box0 {
+
+}
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+
+}
+
+.box4 {
+
+}
