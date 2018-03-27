@@ -1,8 +1,9 @@
 
 /* Test css link */
-h1 {
-  color: blue;
-}
+ * {
+   font-family: Helvetica;
+
+ }
 /* Header Logo and Nav  */
 
 .flex-container_row1 {
@@ -11,19 +12,22 @@ h1 {
 	background-color: black;
 	font-family: Helvetica;
 	font-size: 22px;
-	opacity: 0.9;
 	color: seashell;
 	align-items: center;
 	border-bottom: 1px solid seashell;
+
+
 }
 
 .flex-container_row1 > div {
 	padding: 10px;
+  opacity: 0.9;
+
 }
 
 .logo img {
 	height: 50px;
-	
+
 }
 .push {
 	margin-left: auto;
@@ -35,23 +39,55 @@ h1 {
 
 /* Flexbox Main */
 
-.flex-container_main {
-	display: flex;
-	background-color: black;
-	height: 700px;
-	width: auto;
+.main {
+  display: block;
+  background-color: black;
+  margin: auto;
 }
 
-.flex-container_mission {
+.flex-container1 {
 	display: flex;
-	background-image: url("../../resources/images/img-mission-background.jpg");
-	flex-grow: 1;
+  flex-direction: column;
 }
 
-.mission {
+.flex-container2 {
+	display: inline-flex;
+  flex-direction: row;
+}
+
+.item_mission {
 	background-color: black;
 	color: white;
-	flex-grow: 1;
+}
+
+#mission {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.item_tea {
+ background-color: black;
+ color: white;
+}
+
+.teaofmonth {
+  color: white;
+
+}
+
+#tea {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.tea-img {
+  height:200px;
+  width: 300px;
+}
 
 }
 /* Flexbox Items */
