@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Tea Cozy</title>
-  <link rel="stylesheet" href=".\resources\css\style.css"/>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href=".\resources\css\style.css"/>
+  </head>
 
-<body>
-  <header>
-    <div class="flex-container_row1 nav1">
-      <div class="logo box0"><img src="resources/images/img-tea-cozy-logo.png" alt"jar of tea leaves"/></div>
-      <div class="push box1"><span><a href="#">Mission</a></span></div>
-      <div class="box2"><span><a href="#">Featured Tea</a></span></div>
-      <div class="box3"><span><a href="#">Locations</a></span></div>
-    </div>
-  </header>
-
-  <main class="main">
-  	<div class="flex-container1" id="mission">
-  		<div class="item_mission">
-  			<h2> Our Mission</h2>
-        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+  <body>
+    <header>
+    <!-- Flexbox Row -->
+      <div class="flex-container_row1">
+        <div class="logo"><img src="resources/images/img-tea-cozy-logo.png" alt"jar of tea leaves"/></div>
+        <div class="push nav1"><a href="#">Mission</a></div>
+        <div class="nav2"><a href="#">Featured Tea</a></div>
+        <div class="nav3"><a href="#">Locations</a></div>
       </div>
-    </div>
-    <div class="flex-container2" id="tea">
-      <div class="item_tea">
+    </header>
+
+    <section class="flex-container-column" id="part1">
+      <div class="flex-container-column" id="column1">
+        <div class="box1"><h2> Our Mission</h2>
+          <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
+      </div>
+    </section>
+    <section class="flex-container-column" id="part4">
+      <div class="box1">
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at the Tea Cozy</h4>
       </div>
-      <div class="tea-pics">
-        <div class="teaofmonth" >
-          <img class="tea-img" src="resources/images/img-berryblitz.jpg" alt="berry in a cup"/><h4>Fall Berry Blitz Tea</h4>
-          <img class="tea-img" src="resources/images/img-spiced-rum.jpg" alt="berry in a cup"/><h4>SPiced Rum Tea</h4>
-          <img class="tea-img" src="resources/images/img-donut.jpg" alt="berry in a cup"/><h4>Seasonal Donuts</h4>
-          <img class="tea-img" src="resources/images/img-myrtle-ave.jpg" alt="berry in a cup"/><h4>Myrle Ave Tea</h4>
-          <img class="tea-img" src="resources/images/img-bedford-bizarre.jpg" alt="berry in a cup"/><h4>Bedford Bizarre Teas</h4>
-
-
-        </div>
-
+    </section>
+    <section class="flex-container-row" id="part2">
+      <div class="flex-container-column" id="column2">
+        <div class="box2"><img class="tea-img" src="resources/images/img-berryblitz.jpg" alt="berry in a cup"/></div>
+        <div class="box3"><h4>Fall Berry Blitz Tea</h4></div>
       </div>
-
-
-  </main>
-
-</body>
+      <div class="flex-container-column" id="column2">
+        <div class="box2"><img class="tea-img" src="resources/images/img-spiced-rum.jpg" alt="berry in a cup"/></div>
+        <div class="box3"><h4>Spiced Rum Tea</h4></div>
+      </div>
+      <div class="flex-container-column" id="column2">
+        <div class="box2"><img class="tea-img" src="resources/images/img-donut.jpg" alt="berry in a cup"/></div>
+        <div class="box3"><h4>Seasonal Donuts</h4></div>
+      </div>
+      <div class="flex-container-column" id="column2">
+        <div class="box2"><img class="tea-img" src="resources/images/img-myrtle-ave.jpg" alt="berry in a cup"/></div>
+        <div class="box3"><h4>Myrtle Ave Tea</h4></div>
+      </div>
+      <div class="flex-container-column" id="column2">
+        <div class="box2"><img class="tea-img" src="resources/images/img-bedford-bizarre.jpg" alt="berry in a cup"/></div>
+        <div class="box3"><h4>Bedford Bizarre Teas</h4></div>
+      </div>
+    </section>
+    <section class="block-container-inline" id="part3">
+      <div id="row3">
+        <div><h2>Locations</h2></div>
+      </div>
+      <div class="flex-container-row" id="row4">
+        <div class="box4">
+          <h3>Downtown</h3>
+          <h4>384 West 4th St</h4>
+          <h4>Suite 108</h4>
+          <h4>Portland, Maine</h4>
+        </div>
+        <div class="box5">
+          <h3>East Bayside</h3>
+          <h4>3433 Phisherman's Avenue</h4>
+          <h4>(Nortwest Corner)</h4>
+          <h4>Portland, Maine</h4>
+        </div>
+        <div class="box6">
+          <h3>Oakdale</h3>
+          <h4>515 Crescent Avenue</h4>
+          <h4>Second Floor</h4>
+          <h4>Portland, Maine</h4>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="flex-container-column" id="column7">
+        <div class="fbox5"><h2>Tea Cozy</h2></div>
+        <div class="fbox6"><h5>contact@theteacozy.com</h5></div>
+        <div class="fbox7"><h5>917-555-8904</h5></div>
+      </div>
+      <div class="flex-container-column" id="column8">
+        <div class="fbox8">box8</div>
+      </div>
+    </footer>
+  </body>
 </html>

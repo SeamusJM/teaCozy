@@ -1,112 +1,259 @@
-
+​
 /* Test css link */
- * {
-   font-family: Helvetica;
+h1 {
+  color: blue;
+}
 
- }
-/* Header Logo and Nav  */
+* {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
 
+}
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+}
+
+/* Flexbox Header */
 .flex-container_row1 {
-	display: flex;
-	height: 69px;
-	background-color: black;
-	font-family: Helvetica;
-	font-size: 22px;
-	color: seashell;
-	align-items: center;
-	border-bottom: 1px solid seashell;
-
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid seashell;
 
 }
 
 .flex-container_row1 > div {
-	padding: 10px;
-  opacity: 0.9;
+  background-color: black;
+  padding: 20px;
+  font-size: 22px;
 
+
+}
+
+.push {
+  margin-left: auto;
 }
 
 .logo img {
 	height: 50px;
 
 }
-.push {
-	margin-left: auto;
+
+.nav1 {
+
 }
 
-.nav1 a {
-	color: white;
+.nav2 {
+
 }
 
-/* Flexbox Main */
+.nav3 {
 
-.main {
-  display: block;
-  background-color: black;
-  margin: auto;
+}
+/* Flex Containers Content*/
+
+.grow1 {
+  flex-grow: 1;
 }
 
-.flex-container1 {
-	display: flex;
+/* Default Flex Containers */
+.flex-container-row {
+  display: flex;
+}
+
+.flex-container-column {
+  display: flex;
   flex-direction: column;
 }
 
-.flex-container2 {
-	display: inline-flex;
-  flex-direction: row;
+.block-container-inline {
+  display: block;
+  position: relative;
 }
 
-.item_mission {
-	background-color: black;
-	color: white;
+/* Section Flex Containers */
+#part1 {
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
 }
 
-#mission {
+#part4 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  background-color: black;
+}
+#part2 {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  background-color: black;
+}
+
+#part3 {
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+
+}
+
+/* Modified Flex Containers */
+
+#column1{
   background-image: url("../../resources/images/img-mission-background.jpg");
+  justify-content: center;
   height: 700px;
   width: 1200px;
   margin: auto;
   text-align: center;
   justify-content: center;
-}
-.item_tea {
- background-color: black;
- color: white;
-}
-
-.teaofmonth {
-  color: white;
 
 }
 
-#tea {
-  margin: auto;
-  text-align: center;
+#column2{
+  display: inline-flex;
+  width: 300px;
+  background-color: black;
+}
+
+#row3{
+  position: absolute;
+  left: 45%;
+  top: 10%;
+
+}
+
+#column7 {
   justify-content: center;
 }
+
+/* Flex Items */
+
+#column1 > div {
+  background-color: black;
+  text-align: center;
+  font-size: 22px;
+}
+
+#column2 > div {
+  background-color: black;
+  text-align: center;
+  font-size: 22px;
+}
+
+#row3 > div {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  font-size: 22px;
+  /* background-color: transparent; */
+}
+
+#row4 > div {
+
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 300PX;
+  margin: auto;
+  background-color: black;
+  font-size: 22px;
+  opacity: 1;
+}
+
+#column7 > div {
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+  margin: 0;
+}
+
+/* Elements */
 
 .tea-img {
   height:200px;
   width: 300px;
 }
 
-}
-/* Flexbox Items */
-.box0 {
-
-}
-
-.box1 {
-
-}
-
 .box2 {
-
+  height:200px;
+  width: 300px;
+  margin: 20px 20px 0 20px;
 }
 
-.box3 {
-
+.box3 h4 {
+  width: 300px;
+  height: 50px;
+  margin: 20px 20px 0 20px;
 }
 
 .box4 {
+  position: absolute;
+  left: 8%;
+  top: 30%;
+  font-size: 22px;
+  opacity: 1;
+}
 
+.box5 {
+  position: absolute;
+  left: 38%;
+  top: 30%;
+  font-size: 22px;
+  opacity: 1;
+}
+
+.box6 {
+  position: absolute;
+  left: 68%;
+  top: 30%;
+  font-size: 22px;
+  opacity: 1;
+}
+
+.box7 {
+
+}
+
+.box8 {
+
+}
+
+/* Footer */
+
+footer {
+
+}
+
+.fbox5 {
+  margin: 0;
+}
+
+.fbox6 {
+  margin: 0;
+}
+
+.fbox7 {
+  margin: 0;
+}
+
+.fbox8 {
+  margin: 0;
 }
