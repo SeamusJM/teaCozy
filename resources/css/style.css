@@ -16,45 +16,38 @@ body {
 
 header {
   background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  padding-top: 20px;
 }
 
 /* Flexbox Header */
-.flex-container_row1 {
-  display: flex;
-  align-items: center;
-  height: 70px;
-  border-bottom: 1px solid seashell;
-
+.block-container_row1 {
+  margin: 0 10;
+  height: 69px;
 }
 
-.flex-container_row1 > div {
+.block-container_row1 > div {
   background-color: black;
-  padding: 20px;
   font-size: 22px;
-
-
-}
-
-.push {
-  margin-left: auto;
+  display: inline-block;
+  align-items: center;
 }
 
 .logo img {
 	height: 50px;
-
+  margin-left: 10px;
 }
 
 .nav1 {
-
+ padding: 10px;
+ float: right;
+ margin-right: 10px;
 }
 
-.nav2 {
-
-}
-
-.nav3 {
-
-}
 /* Flex Containers Content*/
 
 .grow1 {
@@ -82,6 +75,8 @@ header {
   width: 100%;
   height: auto;
   background-color: black;
+  margin-top: 69px;
+
 }
 
 #part4 {
